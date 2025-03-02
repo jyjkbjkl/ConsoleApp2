@@ -1,0 +1,27 @@
+(Standard numeric format)
+
+int X = 10;
+int Y = 20;
+Console.WriteLine($"Equation: {X} + {Y} = {X + Y:C}");
+
+
+in one (1) pdf page:
+1. why the output of this Equation = $30.00?
+لانه فى المثال السابق تم جمع 
+            y+x
+ وبمان x = 10 و y = 20
+ اذا سيكون الناتج
+            30
+ولتحويله الى 
+           30.00
+يتم اضافه 
+            :c
+وهذا يستخدم فى عرض الرقم بتنسيق العمله .
+
+2. what is its benefit?
+الفائده منه تسهيل التعامل بالاموال وسهوله الحساب للضرائب المضافه.
+3. try another example with a different specifier with a screenshot of the output.
+int x = 50;
+int y = 50;
+Console.WriteLine($"double: {x}+{y}={x+y:p}");
+double:50 + 50 = 100%
